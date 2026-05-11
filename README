@@ -1,35 +1,23 @@
-# 🚀 Flow Extractor - AI Core 🧠
+🚀 Flow Extractor - AI Core 🧠
 
-¡Bienvenido al cerebro de **Flow Extractor**! Este repositorio aloja el modelo de visión computacional que permite al plugin de Figma "entender" y reconstruir diseños a partir de imágenes.
+Welcome to the brain of Flow Extractor! This repository hosts the computer vision model that allows the Figma plugin to "understand" and reconstruct designs from images.
 
----
+🛠 Technical Model Details
 
-### 🛠 Detalles Técnicos del Modelo
-- **⚡ Engine Base**: YOLOv8 Nano (Ultralytics)
-- **📦 Formato**: ONNX Runtime (Opset 12)
-- **🎯 Especialidad**: Detección de elementos UI/UX en tiempo real.
-- **🎨 Optimización**: Cuantizado para ejecución ultra-rápida en navegadores.
+⚡ Engine Base: YOLOv8 Nano (Ultralytics)
+📦 Format: ONNX Runtime (Opset 12)
+🎯 Specialization: Real-time UI/UX element detection.
+🎨 Optimization: Quantized for ultra-fast execution in browsers.
+🔍 What is it capable of detecting?
 
----
+🔘 Buttons & CTAs: Identifies rounded and rectangular buttons.
+🖼 Images & Containers: Separates photos from solid backgrounds.
+📝 Text Blocks: Locates headlines and paragraphs for precision OCR.
+✨ Icons: Detects interface glyphs and symbols.
+📲 How to integrate it into the Plugin To make the plugin work with this AI, use the direct download URL (Raw):
 
-### 🔍 ¿Qué es capaz de detectar?
-- **🔘 Botones & CTAs**: Identifica botones redondeados y rectangulares.
-- **🖼 Imágenes & Contenedores**: Separa fotos de fondos sólidos.
-- **📝 Bloques de Texto**: Localiza titulares y párrafos para OCR de precisión.
-- **✨ Iconos**: Detecta glifos y símbolos de interfaz.
+🔗 Model URL: https://raw.githubusercontent.com/[YOUR_USERNAME]/[YOUR_REPO]/main/[YOUR_MODEL].onnx
 
----
+🛠 Maintenance Instructions To update the model, simply replace the .onnx file while keeping the same name. The plugin will automatically update on the next run.
 
-### 📲 Cómo integrarlo en el Plugin
-Para que el plugin funcione con esta IA, usa la URL de descarga directa (Raw):
-
-🔗 **URL del Modelo:** 
-`https://raw.githubusercontent.com/[TU_USUARIO]/[TU_REPO]/main/[TU_MODELO].onnx`
-
----
-
-### 🛠 Instrucciones de Mantenimiento
-Para actualizar el modelo, simplemente reemplaza el archivo `.onnx` manteniendo el mismo nombre. El plugin se actualizará automáticamente en la siguiente ejecución.
-
----
-> *Potenciado por **Ultralytics YOLOv8** & **ONNX Runtime Web*** 🚀
+Powered by Ultralytics YOLOv8 & ONNX Runtime Web 🚀
