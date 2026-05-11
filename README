@@ -16,8 +16,6 @@ Welcome to the brain of Flow Extractor! This repository hosts the computer visio
 ✨ Icons: Detects interface glyphs and symbols.
 📲 How to integrate it into the Plugin To make the plugin work with this AI, use the direct download URL (Raw):
 
-🔗 Model URL: https://raw.githubusercontent.com/[YOUR_USERNAME]/[YOUR_REPO]/main/[YOUR_MODEL].onnx
-
 🛠 Maintenance Instructions To update the model, simply replace the .onnx file while keeping the same name. The plugin will automatically update on the next run.
 
 Powered by Ultralytics YOLOv8 & ONNX Runtime Web 🚀
